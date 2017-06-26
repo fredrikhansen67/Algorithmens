@@ -3,5 +3,10 @@
  */
 public class Start {
 
-    public static void main(String args[]){}
+    public static void main(String args[]){
+        System.out.println("Christmas tree");
+        new Pyramid().runProgram();
+        System.out.println("UpsideDown");
+        new Pyramid().runProgramUpsidedown();
+    }
 }
